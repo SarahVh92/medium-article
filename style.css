@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  line-height: 1.6;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+.banner h1 {
+  font-size: 38px;
+  margin: 30px 0;
+  font-weight: 600;
+}
+
+.banner p {
+  font-family: 'Lora', serif;
+  font-size: 30px;
+  opacity: 0.8;
+  font-style: italic;
+}
+.container {
+  color: white;
+  background-size: cover;
+  width: 700px;
+  flex-direction: column;
+  align-content: center;
+  text-align: left;
+  justify-content: center;
+  margin: 50px auto;
+}
+
+h2 {
+  color: rgb(160, 160, 160);
+  font-size: 27px;
+  font-weight: lighter;
+}
+
+.card-white {
+  width: 700px;
+  margin: 50px auto;
+}
+
+.card-white p {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  color: #494949;
+}
+
+a {
+  background-color: #E8FDEF;
+  text-decoration: none;
+  color: #636363;
+  font-size: 25px;
+  font-family: 'Lora', serif;
+  font-style: italic;
+}
+
+a:hover {
+  background-color: #7DFFB3;
+}
+
+/* Media queries */
+@media(max-width: 900px) {
+  .container {
+    width: 700px;
+  }
+}
+@media(max-width: 750px) {
+  .container {
+    width: 450px;
+  }
+}
+@media(max-width: 500px) {
+  .container {
+    width: 350px;
+  }
+  .banner {
+    padding: 50px 0;
+  }
+  .banner h1 {
+    font-size: 30px;
+  }
+  .banner p {
+    font-size: 20px;
+  }
+}
